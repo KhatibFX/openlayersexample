@@ -1,3 +1,5 @@
+import 'ol.js';
+
 var extent;
 var projection;
 var blueprintLayer;
