@@ -1,5 +1,5 @@
 import './ol.css';
-import './ol.js';
+import * from './ol.js';
 
 const extent = [0, 0, 1024, 968];
 const projection = new ol.proj.Projection({
