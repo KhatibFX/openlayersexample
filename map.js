@@ -6,8 +6,8 @@ var map;
 
 
 function initMap(imageWidth, imageHeight, blueprintUrl, mapDivision){
+  alert("how are you");
     extent = [0, 0, imageWidth, imageHeight];
-    alert("how are you");
     projection = new ol.proj.Projection({
       code: "pixel",
       units: "pixels",
