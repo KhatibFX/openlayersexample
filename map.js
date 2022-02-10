@@ -12,6 +12,7 @@ function initMap(imageWidth, imageHeight, blueprintUrl, mapDivision){
       units: "pixels",
       extent: extent
     });
+    alert("how are you");
     blueprintLayer = new ol.layer.Image({
         source: new ol.source.ImageStatic({
             url: blueprintUrl,
@@ -32,5 +33,4 @@ function initMap(imageWidth, imageHeight, blueprintUrl, mapDivision){
         ],
         view: mapView
     });
-    alert("how are you");
 }
