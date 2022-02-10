@@ -12,11 +12,13 @@
             }
           </style>
           <script src="$ol.js"></script>
-          <script src="$helmertTransformPath"></script>
-          <script src="$mapPath"></script>
+          <script src="map.js"></script>
+          window.onload = function(){
+            initMap(15973, 8833, "map.jpg", "map")
+          }
           <title>Openlayers Example</title>
         </head>
-        <body onload="javascript:initMap(15973, 8833, 'map.jpg', 'map')">
+        <body>
           <div id="map" class="map"></div>
         </body>
       </html>
