@@ -5,8 +5,8 @@ var mapView;
 var map;
 
 
-function initMap(imageWidth, imageHeight, blueprintUrl, mapDivision){
-    extent = [0, 0, imageWidth, imageHeight];
+function initMap(){
+    extent = [0, 0, 1920, 1061];
     projection = new ol.proj.Projection({
       code: "pixel",
       units: "pixels",
@@ -14,7 +14,7 @@ function initMap(imageWidth, imageHeight, blueprintUrl, mapDivision){
     });
     blueprintLayer = new ol.layer.Image({
         source: new ol.source.ImageStatic({
-            url: 'map.jpg',
+            url: 'map-small.jpg',
             projection: projection,
             imageExtent: extent
         })
