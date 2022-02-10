@@ -14,7 +14,7 @@ function initMap(imageWidth, imageHeight, blueprintUrl, mapDivision){
     });
     blueprintLayer = new ol.layer.Image({
         source: new ol.source.ImageStatic({
-            url: blueprintUrl,
+            url: 'map.jpg',
             projection: projection,
             imageExtent: extent
         })
