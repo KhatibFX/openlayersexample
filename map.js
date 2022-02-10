@@ -26,7 +26,7 @@ function initMap(imageWidth, imageHeight, blueprintUrl, mapDivision){
         maxZoom: 8
     });
     map = new ol.Map({
-        target: mapDivision,
+        target: 'map',
         layers: [
             blueprintLayer
         ],
