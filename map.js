@@ -9,7 +9,7 @@ const map = new ol.Map({
     layers: [
       new ol.layer.Image({
           source: new ol.source.ImageStatic({
-              url: 'map-small.jpg',
+              url: 'https://imgs.xkcd.com/comics/online_communities.png',
               projection: projection,
               imageExtent: extent
           }),
